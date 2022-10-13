@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+#container{
+    background-color: blueviolet;
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.doboz{
+    padding: 10px;
+}
+div{
+    border: 3px solid gold;
+}
+img{
+    max-width: 300px;
+    width: 50%;
+}
+@media screen and (max-width:600px){
+    body{
+        background-color:chartreuse
+    }
+    #container{
+        background-color: brown;
+        color:aquamarine;
+        max-width: 100%;
+        width: 100%;
+        font-size: 6vw;
+        grid-template-columns: 1fr 1fr;
+    }
+    .doboz{
+        height:100vh;
+        
+        
+    }
+
+}
+@media screen and (max-width:300px){
+
+    #container{
+        background-color:blue;
+        color:rgb(111, 153, 139);
+        grid-template-columns: 1fr;
+
+    }
+}
+ 
+    
